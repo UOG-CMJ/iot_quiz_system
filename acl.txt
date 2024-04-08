@@ -1,0 +1,9 @@
+pattern readwrite %c/status
+pattern readwrite %c/responses
+pattern readwrite %c/audio
+
+user admin
+topic readwrite mode
+topic read +/status
+topic read +/responses
+topic read +/audio
