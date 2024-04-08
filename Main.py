@@ -57,7 +57,7 @@ open_audio_files = dict()
 
 mqttc = client.Client(client.CallbackAPIVersion.VERSION2)
 mqttc.username_pw_set("admin", "passwd2")
-mqttc.connect("192.168.43.120")
+# mqttc.connect("192.168.43.120")
 # mqttc.connect("192.168.43.216")
 # mqttc.connect("192.168.50.143")
 mqttc.connect("127.0.0.1")
